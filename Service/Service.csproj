@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibraryCore\LibraryCore.csproj" />
+    <PackageReference Include="Microsoft.Azure.Devices" Version="1.27.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleCore\Device.csproj" />
   </ItemGroup>
 
 </Project>
