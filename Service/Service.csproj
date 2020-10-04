@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ConsoleCore\Device.csproj" />
+    <ProjectReference Include="..\DeviceApp\DeviceApp.csproj" />
   </ItemGroup>
 
 </Project>
